@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hong/Desktop/code/CMAKE_ENV/math/MathFunctions.cpp
+MathFunctions.h
+/home/hong/Desktop/code/CMAKE_ENV/math/MathFunctions.h
+
+/home/hong/Desktop/code/CMAKE_ENV/math/MathFunctions.h
+
