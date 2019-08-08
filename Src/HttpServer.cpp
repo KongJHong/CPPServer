@@ -74,7 +74,8 @@ void HttpServer::run(int thread_num,int max_request)
 
     while(true)
     {
-        std::vector<shared_httpData> events = Epoll::poll(servSocket,MAX_EVENT_NUMBER,-1);
+        //主线程核心逻辑，分发接收到的数据
+        std::vector<shared_httpData> events = Epoll::poll(servSocket,MAX_EVENT_NUMBER,-1); 
 
         for(auto &req : events){
             threadPool.append(req,std::bind(&HttpServer::do_request,this,std::placeholders::_1));
