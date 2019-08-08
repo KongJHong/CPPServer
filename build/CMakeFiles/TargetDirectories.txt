@@ -1,3 +1,0 @@
-/home/hong/Desktop/code/WebServer/build/CMakeFiles/rebuild_cache.dir
-/home/hong/Desktop/code/WebServer/build/CMakeFiles/demo.dir
-/home/hong/Desktop/code/WebServer/build/CMakeFiles/edit_cache.dir

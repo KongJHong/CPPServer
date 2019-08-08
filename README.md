@@ -33,9 +33,10 @@
 ## Usage
 
 ```
-cmake . && make 
+cd CPPWebserver/build
+cmake .. && make 
 
-./webserver [-p port] [-t thread_numbers]  [-r website_root_path] [-d daemon_run]
+./bin/demo [-p port] [-t thread_numbers]  [-r website_root_path] [-d daemon_run]
 
 ```
 

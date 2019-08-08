@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 
 # 项目名称
-project(demo)
+project(ServerDemo)
 
 # 设置C/C++标准
 set(CMAKE_C_STANDARD 11)
